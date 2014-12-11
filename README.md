@@ -23,7 +23,7 @@ HOW TO RUN:
 
 Requires Java 8 due to JavaFX GUI
 
-Build using maven (JAV_HOME must be JAVA 8 JDK):
+Build using maven (JAVA_HOME must be JAVA 8 JDK):
 mvn clean package
 
 Run the built(./target/challenge1.jar).
