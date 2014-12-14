@@ -105,7 +105,9 @@ public class Main extends Application {
 			@Override
 			public void handle(ActionEvent arg0) {
 				ChallengeSolution solution = controls.getSelectedSolution();
-				SolutionAnalyzer.analyzeSolution(currentChallenge, solution);
+				if (solution != null) {
+					SolutionAnalyzer.analyzeSolution(currentChallenge, solution);
+				}
 			}
 		});
 		
