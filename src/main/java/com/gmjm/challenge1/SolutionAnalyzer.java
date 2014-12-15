@@ -19,6 +19,8 @@ import com.gmjm.challenge1.Challenge.Node;
 public class SolutionAnalyzer {
 	public static void analyzeSolution(Challenge challenge, ChallengeSolution challengeSolution)
 	{
+		System.out.println("Running solution: " + challengeSolution.toString());
+		
 		double totalLength = 0;
 		long executionInMs = 0;
 		int edges = 0;
@@ -87,5 +89,7 @@ public class SolutionAnalyzer {
 				fiveMostVisited);
 		
 		challengeSolution.solutionAnlaysis = analysis;
+		
+		System.out.println("Solution Complete: " + challengeSolution.getSolutionName());
 	}
 }

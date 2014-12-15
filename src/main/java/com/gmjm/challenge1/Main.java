@@ -150,7 +150,7 @@ public class Main extends Application {
 					else
 					{
 						ChallengeSolution.drawSolution(solution,Color.BLUE, drawNewChallenge());
-						System.out.println(solution.solutionAnlaysis.toString());						
+						System.out.println(solution.toString() + " " + solution.solutionAnlaysis.toString());						
 					}
 				}
 			}
